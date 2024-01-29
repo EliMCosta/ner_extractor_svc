@@ -28,6 +28,7 @@ ner_extractor_svc/
 A partir da raiz do projeto, executar o comando:
 
 ```bash
+eval $(minikube -p minikube docker-env) #Trabalhando com imagem local
 docker build -t ner_extractor_svc .
 ```
 
